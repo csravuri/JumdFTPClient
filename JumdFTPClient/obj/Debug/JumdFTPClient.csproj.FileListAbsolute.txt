@@ -1,0 +1,7 @@
+G:\Applications\cSharp\JumdFTPClient\JumdFTPClient\bin\Debug\JumdFTPClient.exe.config
+G:\Applications\cSharp\JumdFTPClient\JumdFTPClient\bin\Debug\JumdFTPClient.exe
+G:\Applications\cSharp\JumdFTPClient\JumdFTPClient\bin\Debug\JumdFTPClient.pdb
+G:\Applications\cSharp\JumdFTPClient\JumdFTPClient\obj\Debug\JumdFTPClient.csprojAssemblyReference.cache
+G:\Applications\cSharp\JumdFTPClient\JumdFTPClient\obj\Debug\JumdFTPClient.csproj.CoreCompileInputs.cache
+G:\Applications\cSharp\JumdFTPClient\JumdFTPClient\obj\Debug\JumdFTPClient.exe
+G:\Applications\cSharp\JumdFTPClient\JumdFTPClient\obj\Debug\JumdFTPClient.pdb

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumdFTPClient", "JumdFTPClient\JumdFTPClient.csproj", "{1503ACB6-380E-4085-85E7-61E031894C8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumdFTPClientApp", "JumdFTPClientApp\JumdFTPClientApp.csproj", "{F6C0CC7A-99DB-4C16-AD15-08AFCD6186EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1503ACB6-380E-4085-85E7-61E031894C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1503ACB6-380E-4085-85E7-61E031894C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1503ACB6-380E-4085-85E7-61E031894C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1503ACB6-380E-4085-85E7-61E031894C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6C0CC7A-99DB-4C16-AD15-08AFCD6186EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6C0CC7A-99DB-4C16-AD15-08AFCD6186EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6C0CC7A-99DB-4C16-AD15-08AFCD6186EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6C0CC7A-99DB-4C16-AD15-08AFCD6186EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9E8529D-6B30-4F27-B6B6-4C3CE681653E}
+	EndGlobalSection
+EndGlobal
