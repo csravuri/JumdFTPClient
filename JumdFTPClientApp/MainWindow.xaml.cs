@@ -23,6 +23,17 @@ namespace JumdFTPClient
         public MainWindow()
         {
             InitializeComponent();
+
+            JumdFTPService jumdFTPServiceObj = new JumdFTPService("ftp://localhost", "PUBG", "1", "G:\\ftp_local");
+            List<Tuple<string,bool>> ftpItems = jumdFTPServiceObj.GetListofItemsInFtpFolder("ftp://localhost");
+
+            foreach (string eachItem in ftpItems.Select(x => x.Item1))
+            {
+                lvFTPList.Items.Add(eachItem);
+            }
+                
+            //jumdFTPServiceObj.EstablishFTPConnection();
+
         }
     }
 }

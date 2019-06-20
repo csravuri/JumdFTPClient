@@ -5,8 +5,51 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:JumdFTPClient"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="Jumd FTP" Height="450" Width="800">
+    <Border Padding="10" BorderBrush="Black" BorderThickness="5" Background="LightGray">
+        <StackPanel>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Padding="3" Grid.Row="0" Grid.Column="0">User Name</TextBlock>
+                <TextBlock Padding="3" Grid.Row="0" Grid.Column="1">Password</TextBlock>
+                <TextBlock Padding="3" Grid.Row="0" Grid.Column="2">Port No</TextBlock>
+                <TextBox Margin="0 8 8 8" Padding="3" x:Name="txtUserName" Grid.Row="1" Grid.Column="0"></TextBox>
+                <PasswordBox Margin="0 8 8 8" Padding="3" x:Name="txtPassword"  Grid.Row="1" Grid.Column="1"></PasswordBox>
+                <TextBox Margin="0 8 8 8" Padding="3" x:Name="txtPortNumber" Grid.Row="1" Grid.Column="2"></TextBox>
+                <Button x:Name="btnLogin" Margin="8" Grid.Row="0" Grid.Column="3" Grid.RowSpan="2">Login</Button>
+                <Button x:Name="btnLogout" Margin="8" Grid.Row="0" Grid.Column="4" Grid.RowSpan="2">Logout</Button>
+
+
+            </Grid>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="5*"/>
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center">Local Folder</Label>
+                <Label Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center">FTP Folder</Label>
+                <Border BorderBrush="Blue" BorderThickness="2" Grid.Row="1" Grid.Column="0" Margin="5">
+                    <ListView x:Name="lvLocalList"></ListView>
+                </Border>
+                <Border BorderBrush="Green" BorderThickness="2" Grid.Row="1" Grid.Column="1" Margin="5">
+                    <ListView x:Name="lvFTPList"></ListView>
+                </Border>
+            </Grid>
+        </StackPanel>
+    </Border>
 </Window>
