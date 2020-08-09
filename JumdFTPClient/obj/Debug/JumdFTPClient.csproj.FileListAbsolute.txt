@@ -5,3 +5,10 @@ G:\Applications\cSharp\JumdFTPClient\JumdFTPClient\obj\Debug\JumdFTPClient.cspro
 G:\Applications\cSharp\JumdFTPClient\JumdFTPClient\obj\Debug\JumdFTPClient.csproj.CoreCompileInputs.cache
 G:\Applications\cSharp\JumdFTPClient\JumdFTPClient\obj\Debug\JumdFTPClient.exe
 G:\Applications\cSharp\JumdFTPClient\JumdFTPClient\obj\Debug\JumdFTPClient.pdb
+D:\WhoKnows\Courses\Applications\JumdFTPClient\JumdFTPClient\bin\Debug\JumdFTPClient.exe.config
+D:\WhoKnows\Courses\Applications\JumdFTPClient\JumdFTPClient\bin\Debug\JumdFTPClient.exe
+D:\WhoKnows\Courses\Applications\JumdFTPClient\JumdFTPClient\bin\Debug\JumdFTPClient.pdb
+D:\WhoKnows\Courses\Applications\JumdFTPClient\JumdFTPClient\obj\Debug\JumdFTPClient.csprojAssemblyReference.cache
+D:\WhoKnows\Courses\Applications\JumdFTPClient\JumdFTPClient\obj\Debug\JumdFTPClient.csproj.CoreCompileInputs.cache
+D:\WhoKnows\Courses\Applications\JumdFTPClient\JumdFTPClient\obj\Debug\JumdFTPClient.exe
+D:\WhoKnows\Courses\Applications\JumdFTPClient\JumdFTPClient\obj\Debug\JumdFTPClient.pdb
